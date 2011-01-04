@@ -1,0 +1,52 @@
+<html>
+<head>
+<style type="text/css">
+body {
+    width: 600px;
+    margin-left: 20px;
+    }
+
+#Table_of_Contents {
+    font-size: 110%;
+    font-weight: bold;
+    }
+#Table_of_Contents li ul {
+    list-style-type: none;
+    font-size: 90%;
+    font-weight: normal;
+    }
+</style>
+
+    </head>
+    <body>
+        <p id="Table_of_Contents">
+                <a id="Index" href="#Index">Index of Topics</a>
+                <ul>
+                    <li><a href="#Introduction">Introduction</a></li>
+                    <li><a href="#Advanced_Options">Advanced Options</a></li>
+                    <li><a href="#Altitude_of_Branches">Altitude of Branches</a></li>
+                    <li><a href="#Time-span_Functions">Time-span Functions</a></li>
+                    <li><a href="#Storage_and_Update_on_the_Cloud">Storage and Update on the Cloud</a></li>
+                </ul>
+            
+            
+        </p>
+        <p id="Introduction">
+            <h3>Introduction <a href="Index"></a></h3>
+            GeoPhylo Engine is service for generating geophlogenies in Keyhole Markup Language(KML) format based on two inputs: a  phylogenetic tree and the geographic coordinates  of each tip taxa (leaf) within the tree. This KML can be opened in any application that can display KML files (e.g. GoogleEarth or WorldWind).  The GeoPhylo Engine parses the phylogenetic tree from a Newick formatted tree-file, strictly containing distances and leaf names. As of version 2.4, GeoPhyloEngine can parse trees with polytomies.  Next, the GeoPhylo Engine parses geographic coordinates for each leaf from a comma seperated file (CSV; see example files). Each node and the tips of the geophylogeny can be clicked to pull a pop-up box that shows the name of that node or tip as well as sister, ancestor, and descendant nodes. Users can "fly to" these closely related nodes by clicking on their names.
+        </p>
+        <p id="Advanced_Options">
+            <h3>Advanced Options:</h3>  At the GeoPhylo Engine, you are given a set of advanced options that allow you to modify many of the specific elements of KML generation. Click on the "advanced" link to expand a menu of these options.  Each advanced option is annotated to describe how option settings will affect final output of the geophylogeny.
+        </p>
+        <p id="Altitude_of_Branches">
+            <h3>Altitude of Branches:</h3> In GeoPhylo Engine, all leaf taxa are placed on the ground (altitude = 0m); internal nodes are given an altitude in the sky such that the tree evenly grows through space for organizedvisual representation.  The Global Scaling Factor adjusts the vertical relief of the tree.<br>
+            It is possible to encode branch lenghts (see Rode Page's <a href="http://iphylo.blogspot.com/2007/06/google-earth-phylogenies.html">example</a>), at the loss of some asthetics. We will be working to include this method as an option in the next release.
+        </p>
+        <p id="Time-span_Functions">
+            <h3>Time-span functions:</h3>  You can view the expansion and movement oflineages over time by including temporal information and using the built-in functions of Google Earth. The GeoPhylo Engine can handle temporal information in the ISO format, YYYY-MM-DDThh:mm:ss, to any level of detail. Such information should be included in the .csv file that also contains the geographic data (see example file format).  If you choose to add temporal information, each Placemark in the KML is given a TimeStamp. Ancestral nodes are given the date of their oldest descendant.
+        </p>
+        <p id="Storage_and_Update_on_the_Cloud">
+            <h3>Storage and update on the cloud:</h3>  You may store your KMLs on the GeoPhylo website. To do so, you must select 'Permalink' in the Advanced options. When selected, you will be given a private-key which you can use to update your geophylogeny in the future.   When you submit your input files, instead of a complete KML being returned, you will recieve a KML containing a NetworkLink to the KML stored at GeoPhylo.  Files are only stored on GeoPhylo for a month as of now. To update a stored KML, you need to enter your private-key and the KML's public-key under the 'Update existing geophylogeny stored at GeoPhylo?' section of the Advanced options.
+        </p>
+    </body>
+</html>

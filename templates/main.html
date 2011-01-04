@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>GeoPhylo Engine</title>
+    <link href="static_files/main.css" type="text/css" rel="stylesheet"></link>
+    <script src="static_files/toggleDiv.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+        function showAlert() {
+                var alertString = "Your privateKey:  {{ privateKey }}"
+                Your KML will be stored at GeoPhylo Engine and we will provide you with a networklink KML for distribution. If you would like to update your KML in the future, you will need the public key (given in the networklink KML) and your privite key given above.\\n\\nPlease write it down."
+                        alert(alertString);
+                  }
+    </script>    
+</head>
+<body>
+  {% if notice %}
+  <div id="notice">
+    {{ notice }}
+  </div>
+  {% endif %}
+  {{ header }}
+  <div id="content">
+    {{ content }}
+  </div>
+  {{ recent_activity }}
+  <div id="footer">
+    Andrew W Hill | andrewxhill@gmail.com<br>
+    {{usage_line}}
+  <div>
+  
+    <script type="text/javascript"> 
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script> 
+    <script type="text/javascript"> 
+    try {
+    var pageTracker = _gat._getTracker("UA-4047687-4");
+    pageTracker._trackPageview();
+    } catch(err) {}</script> 
+</body>
+</html>
+            
+

@@ -1,0 +1,105 @@
+
+      <form action="/output.kml" method="post" enctype="multipart/form-data">
+      <div id="step_one">
+          <div id="step_one_a">
+          <div id="sub_header">
+            <div id="sub_header_content">1a. COPY/PASTE TEXT</div>
+          </div>
+            <div id="step_content">
+                <div>Rooted Tree: <a href="/tree">example</a></div>
+                <div><textarea name="tree" rows="3" cols="30"></textarea></div>
+                <div>Coordinates & Data: <a href="/coords">example</a></div>
+                <div><textarea name="coords" rows="3" cols="30"></textarea></div>
+            </div>
+          </div>
+          <div id="step_one_b">
+            <div id="sub_header">
+              <div id="sub_header_content">1b. UPLOAD PhyloXML</div>
+            </div>
+            <div id="step_content">
+                <div>PhyloXML:<a href="/static_files/examples/Baeolophus.xml.zip">example</a></div>
+                <div id="file_upload"><input type="file" name="phyloxml" value="Upload PhyloXML" size=10 /></div>
+                <div id="sub_notice">We are testing limited PhyloXML support.<br/>For large files (>1mb), please ZIP them first.</div>
+            </div>
+            </br>
+            <div id="sub_header">
+                <div id="sub_header_content">2. RUN ENGINE</div>
+            </div>
+            <div id="step_content">
+                <div id="submit_button">
+                    <input type="submit" value="Generate KML">
+                </div>
+                <div id="hidden_expand">
+                    <a href="javascript:toggleLayer('form_hidden');" title="more options">Advanced</a>
+                </div>
+            </div>
+          </div>
+          
+      </div>
+      <div id="form_hidden">
+            <h3>Advanced Settings</h3>
+            
+            <fieldset>
+                <legend>KML Title  -  <input type="text" name="kml_title" size=18 value="GeoPhylo Engine"/></legend>
+                    Sets the root name of of the KML shown in Google Earth (<i>and if Public, see below</i>).
+            </fieldset>
+            
+            <fieldset>
+                <legend>Author name  -  <input type="text" name="author_name" size=18 value="GeoPhylo Engine"/></legend>
+                    Author name is included in the description windows of the KML as well as used to display the KML if it is made public (see below)
+            </fieldset>
+            <fieldset>
+                <legend>Precision  -  <input type="text" name="proximity" size=1 value="3"/></legend>
+                Precision describes the number of decmial places to round your input coordinates to when searching for and moving points that share the same location. The default is 0.0001 degrees, and then those that share the same location are scattered on a circle with radius 0.00005 degrees. 
+                
+                
+            </fieldset>
+            <fieldset>
+                <legend>Global Scaling Factor  -  <input type="text" name="alt_grow" size=3 value="10000"/></legend>
+                    The global scaling factor determines the number of meters the tree grows between a node and its ancestor. If your tree has fewer points but covers a global distribution, this should be a relatively high number. If it is more regional (~0.1 - 1.0 degree), you might want this number to be lower.
+                
+                
+            </fieldset>
+            <fieldset>
+                <legend>Internal Node URL  -  <input type="text" name="node_url" size=45 value="http://geophylo.appspot.com/static_files/icons/a99.png"/></legend>
+                    Sets the default icon used for tips (overridden by CSV) and the icon used for internal nodes.
+                
+            </fieldset>
+            <fieldset>
+                <legend>Branch Color  -  <input type="text" name="branch_color" size=8 value="FFFFFFFF"/></legend>
+                    Sets the tree branch color. Google Earth uses the form AABBGGRR, where AA=alpha, BB=blue, GG= green, and RR= red.  
+            </fieldset>
+            <fieldset>
+                <legend>Branch Width  -  <input type="text" name="branch_width" size=4 value="1.5"/></legend>
+                    Sets the tree branch thickness.
+            </fieldset>
+            <fieldset>
+                <legend>Permalink?  -  <input onclick="if(this.checked){showAlert();}" type="checkbox" name="permalink" value="yes" UNCHECKED /></legend>
+                    If you would like to access and share your KML we offer you the ability to permanently or temporarily store it 
+                    at the GeoPhylo Engine. Instead of a complete KML, we will send you a network link and instructions 
+                    on accessing your KML.
+                    <br /> <br />
+                    1 Month: <input type="radio" name="storage_time" value="month" checked>  or  Long-term: <input type="radio" name="storage_time" value="permanent" disabled="disabled" onFocus="this.blur();" > <i>#we are not yet offering long-term storage</i>  <br />
+                    <br />
+                    <input type="text" size=45 name="new_private_key_value" value="{{author_key_value}}" />
+                    <br />
+                    <i>Use the provided private key or set your own value above. In future versions we will work to implement a user loggin validation system, but for now are keeping it simple.</i>
+            </fieldset>
+            <fieldset>
+                <legend>Update existing geophylogeny stored at GeoPhylo?  -  <input type="checkbox" name="update_existing" value="yes" UNCHECKED /></legend>
+                    If you are the original author of a KML stored at GeoPhylo you can use the private key provided to you when you 
+                    first made the KML and the public key shown in the network link description or in the url the network link points to 
+                    (http://geophylo.appspot.com/publickey/networklink.kml) to make an update to the KML without having to resend the file to everyone 
+                    you have shared it with in the past.
+                    <br />
+                    Author's privateKey (provided when KML was first created): <input type="text" name="private_key" size=9 value=""/> <i style="color: silver;"> e.g. itBgHEcBwqHalEUUEVRrLbsCsYX</i>
+                    <br />
+                    KML publicKey (found in the KML networklink's description): <input type="text" name="public_key" size=9  value=""/><i style="color: silver;"> e.g. pubkey-lsb9IPCxIIa21sU3Rvcm</i>
+            </fieldset>
+            <fieldset>
+                    <legend>Make KML public? Yes <input type="radio" name="public" value="yes"> No <input type="radio" name="public" value="no" CHECKED><br /></legend>
+                    If you are either updating or permalinking a new geophylogeny, you can make the phylogeny viewable to the public. 
+            </fieldset>
+        </div>
+      </form>
+  

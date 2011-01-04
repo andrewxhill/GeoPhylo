@@ -1,0 +1,9 @@
+ABSTRACT
+
+GeoPhylo is a scalable online service for developing 3-dimensional geographic visualizations of phylogenetic trees in the keyhole markup language (KML). These geographic phylogenies, geophylogenies, can then be viewed in Google Earth or Nasa's World Wind. Advanced features provide users the ability to change many aspects such as scaling and coloring of branches. The GeoPhylo engine has been deployed on the Google App Engine in order to be scalable, sustainable and easily updated, while providing long-term support for stable releases. These features will allow developers to use GeoPhylo as a service in their own applications without concerns of incompatible changes made in future updates.
+
+CITATION
+
+Hill AW and Guralnick RP (2010) GeoPhylo: an online tool for developing visualizations of phylogenetic trees in geographic space. Ecography
+
+

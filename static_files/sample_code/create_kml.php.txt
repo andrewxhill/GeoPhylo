@@ -1,0 +1,43 @@
+<?php
+
+function run_curl($url,$post){ 
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL,$url);
+    curl_setopt($ch, CURLOPT_POST, TRUE);
+    curl_setopt($ch,CURLOPT_POSTFIELDS,$post);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+    $data = trim(curl_exec($ch));
+    curl_close($ch);
+    return $data;
+}
+
+$tree = "(((((Taxa1:0.05251222225263994792,Taxa2:0.04513699220049741112):0.08719030564660754101,((Taxa3:0.07487529181706194248,Taxa4:0.03908812958892094597):0.02406456808142181519,(Taxa5:0.28642677355322920807,(Taxa6:0.11970253310365001898,Taxa7:0.02087695899816855230):0.02794028469814201915):0.01777487601656749933):0.01746312405023603756):0.02465787007192255312,Taxa8:0.16618144418524030681):0.05540463900911093281,Taxa9:0.06128830104526723777):0.01991991489145702662,Taxa0:0.01991991489145702662);";
+
+
+$coordinates = "Taxa1,-44.073,170.33
+Taxa2,-45.073,-175.33
+Taxa3,-46.073,56.33
+Taxa4,-45.973,54.33
+Taxa5,-55.073,51.33
+Taxa6,-54.073,59.33
+Taxa7,-51.073,53.33
+Taxa8,-49.073,64.33
+Taxa9,-48.073,62.33
+Taxa0,-47.073,66.33";
+
+$post = "tree=$tree&coords=$coordinates";
+
+//other post variables you can set
+//proximity, the decimal place to round coordinates when comparing them for overlap
+//alt_grow, the meters to grow the tree between a node and its ancestor
+//node_url, default icon url for internal nodes
+//branch_color, default branch color in AABBGGRR, e.g. FF989898
+
+
+$url = "http://geophylo.appspot.com/output.kml";
+
+print run_curl($url,$post);
+
+
+?>

@@ -1,0 +1,101 @@
+<body style="min-height:600px; width:450px; text-align: center; background-color: black; font-family: Gill Sans, Verdana; font-size: 14; color: #999;">
+<div id="header" style="width: 95%; margin: 0px; height: 10px; background-color:{{ description.color }};"></div>
+<div id="parent_info" style="width: 95%; margin-left: auto; margin-right: auto; border: 1px solid silver; margin: 3%;">
+    <h3>Parent Info</h3>
+    <div id="header" style="min-height: 30px;">
+        <div id="head" style="float: left; width: 32%; margin: 1px;">ID</div>
+        <div id="head" style="float: left; width: 32%; margin: 1px;">Name</div>
+        <div id="head" style="float: left; width: 32%; margin: 1px;">Flyto</div>
+    </div>
+    <div id="data" style="min-height: 30px;">
+        <div id="id" style="float: left; width: 32%; margin: 1px;">{{ description.parent_node_id }}</div>
+        <div id="name" style="float: left; width: 32%; margin: 1px;">{{ description.parent_name_txt }}</div>
+        <div id="flyto" style="float: left; width: 32%; margin: 1px;"><a href="http://geophylo.appspot.com/flyto.kml?lon={{ description.parent_coords.lon }}&lat={{ description.parent_coords.lat }}&alt={{ description.parent_coords.alt }}">click here</a></div>
+    </div>
+</div>
+{% if description.children %}
+<div id="child_info" style="width: 95%; margin-left: auto; margin-right: auto; border: 1px solid silver; margin: 3%;">
+    <h3>Children Info</h3>
+    <div id="header" style="width: 100%;min-height: 30px;">
+        <div id="head" style="float: left; width: 32%; margin: 1px;">ID</div>
+        <div id="head" style="float: left; width: 32%; margin: 1px;">Name</div>
+        <div id="head" style="float: left; width: 32%; margin: 1px;">Flyto</div>
+    </div>
+    {% for child in description.children %}
+    <div id="data" style="width: 100%;min-height: 30px;">
+        <div id="id" style="float: left; width: 32%; margin: 1px;">{{ child.node_id }}</div>
+        <div id="name" style="float: left; width: 32%; margin: 1px;">{{ child.name_txt }}</div>
+        <div id="flyto" style="float: left; width: 32%; margin: 1px;"><a href="http://geophylo.appspot.com/flyto.kml?lon={{ child.lon }}&lat={{ child.lat }}&alt={{ child.alt }}">click here</a></div>
+    </div>
+    <br>
+    {% endfor %}
+</div>
+{% endif %}
+{% if description.video %}
+<div id="video" style="width: 95%; margin-left: auto; margin-right: auto; border: 1px solid silver; margin: 3%;">
+    <OBJECT ID="MediaPlayer1" width=420 height=240
+    classid="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95"
+    codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,0,02,902"
+    standby="Loading Microsoft Windows Media Player components..."
+    type="application/x-oleobject">
+        <PARAM NAME="FileName" VALUE="{{ description.video }}">
+        <PARAM NAME="animationatStart" VALUE="true">
+        <PARAM NAME="transparentatStart" VALUE="true">
+        <PARAM NAME="autoStart" VALUE="true">
+        <PARAM NAME="showControls" VALUE="true">
+        <EMBED type="application/x-mplayer2"
+        pluginspage = "http://www.microsoft.com/Windows/MediaPlayer/"
+        SRC="{{ description.video }}"
+        name="MediaPlayer1" width=420 height=240 AutoStart=true>
+        </EMBED>
+    </OBJECT>
+
+</div>            
+{% endif %}
+
+
+{% if description.audio %}
+<div id="audio" style="width: 95%; margin-left: auto; margin-right: auto; border: 1px solid silver; margin: 3%;">
+
+    
+    <OBJECT ID="MediaPlayer1" width=420 height=240
+    classid="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95"
+    codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,0,02,902"
+    standby="Loading Microsoft Windows Media Player components..."
+    type="application/x-oleobject">
+        <PARAM NAME="FileName" VALUE="{{ description.audio }}">
+        <PARAM NAME="animationatStart" VALUE="true">
+        <PARAM NAME="transparentatStart" VALUE="true">
+        <PARAM NAME="autoStart" VALUE="false">
+        <PARAM NAME="showControls" VALUE="true">
+        <EMBED type="application/x-mplayer2"
+        pluginspage = "http://www.microsoft.com/Windows/MediaPlayer/"
+        SRC="{{ description.audio }}"
+        name="MediaPlayer1" width=420 height=45 AutoStart=false>
+        </EMBED>
+    </OBJECT>
+
+</div>            
+{% endif %}
+
+{% if ExtendedData.items %}
+<div id="other_data" style="width: 95%; margin-left: auto; margin-right: auto; border: 1px solid silver; margin:3%;">
+    <h3>Additional Info</h3>
+    <div id="header" style="min-height: 30px;">
+        <div id="head" style="float: left; width: 48%; margin: 1px;">Name</div>
+        <div id="head" style="float: left; width: 48%; margin: 1px;">Info</div>
+    </div>
+    {% for a,b in ExtendedData.items %}
+    <div id="data" style="min-height: 30px;">
+        <div id="name" style="float: left; width: 48%; margin: 1px;">{{ a }}</div>
+        <div id="info" style="float: left; width: 48%; margin: 1px;">{{b}}</div>
+    </div>
+    <br>
+    {% endfor %}
+</div>
+{% endif %}
+<div id="footer" style="width: 95%; margin-left: auto; margin-right: auto; margin:3%; min-height: 10%;font-size: 10;">
+    <div id="item" style="float: left; width: 49%;"><a style="color: #444" href="http://geophylo.appspot.com">Geophylo Engine</a></div>
+    <div id="item" style="float: left; width: 49%;"><a style="color: #444" href="http://biodiversity.colorado.edu">Other Projects</a></div>
+</div>
+</body>

@@ -1,0 +1,23 @@
+application: geophylo
+version: 2-4
+runtime: python
+api_version: 1
+
+handlers:
+- url: /favicon.ico
+  static_files: static_files/icons/favicon.ico
+  upload: static_files/icons/favicon.ico
+
+- url: /static_files
+  static_dir: static_files
+  
+- url: /static
+  static_dir: static_files
+  
+- url: /img
+  static_dir: img
+  
+- url: /.*
+  script: geophylo.py
+  
+  

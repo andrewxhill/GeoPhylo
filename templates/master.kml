@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+    <name>{{ document_name }}</name>
+    {{ styles }}
+    <Folder>
+        <name>Leaf elements</name>
+        {{ leafs }}
+    </Folder>
+    <Folder>
+        <name>Node elements</name>
+        {{ nodes }}
+    </Folder>
+</Document>
+</kml>

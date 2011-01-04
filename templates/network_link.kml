@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <kml xmlns="http://earth.google.com/kml/2.0">
+  <Folder>
+    <name>{{ title }}</name>
+    <visibility>0</visibility>
+    <open>0</open>
+    <NetworkLink>
+      <name>{{ title }}</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <description><![CDATA[<body> {{ author }} <br> KML created and stored at geophylo.appspot.com<br /><br /><b>public key:</b> {{ pubkey }}</body>]]></description>
+      <refreshVisibility>0</refreshVisibility>
+      <flyToView>0</flyToView>
+      <Link>
+        <href>http://{{version}}.latest.geophylo.appspot.com/pubkey-{{ pubkey }}/networklink.kml</href>
+      </Link>
+    </NetworkLink>
+  </Folder>
+</kml>

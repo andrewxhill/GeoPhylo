@@ -1,0 +1,65 @@
+<Placemark>
+    <name>{{ name }}</name>
+    <description><![CDATA[ 
+        {{ desc }}
+     ]]></description>
+    <ExtendedData> 
+    {% for key,value in ExtendedData.items %}
+        <Data name="{{ key }}">
+            <value>{{ value }}</value>
+        </Data>
+    {% endfor %}
+    </ExtendedData>
+    <styleUrl>{{ style.styleUrl }}</styleUrl>
+    <Style>
+        <Icon>
+            <href>{{ Point.icon }}</href>
+        </Icon>
+        {% if LineString %}
+        <LineStyle>
+            <color>{{ LineColor }}</color>
+        </LineStyle>
+        {% endif %}
+        {% if Polygons %}
+        <PolyStyle>
+            <color>{{ PolyColor }}</color>
+            <fill>1</fill> 
+            <outline>1</outline> 
+        </PolyStyle>
+        {% endif %}
+    </Style>
+    
+    <MultiGeometry>
+        <Point>
+            <extrude>{{ Point.extrude }}</extrude>
+            <altitudeMode>{{ Point.altitudeMode }}</altitudeMode> 
+            <coordinates>{{ Point.coordinates }}</coordinates>
+        </Point>
+        {% if LineString %}
+        <LineString>
+            <extrude>{{ LineString.extrude }}</extrude>
+            <tessellate>{{ LineString.tessellate }}</tessellate>
+            <altitudeMode>{{ LineString.altitudeMode }}</altitudeMode> 
+            <coordinates>
+                {{ LineString.coordinates }}
+            </coordinates>
+        </LineString>
+        {% endif %}
+        {% if Polygons %}
+        {% for polygon in Polygons %}
+        <Polygon>
+            <extrude>{{ polygon.extrude }}</extrude>
+            <tessellate>{{ polygon.tessellate }}</tessellate>
+            <altitudeMode>{{ polygon.altitudeMode }}</altitudeMode> 
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  {{ polygon.coordinates }}
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs> 
+        </Polygon>
+        {% endfor %}
+        {% endif %}
+    </MultiGeometry>
+</Placemark>

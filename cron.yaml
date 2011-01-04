@@ -1,0 +1,5 @@
+cron:
+- description: Monday kmlStore cleanup
+  url: /weeklycron
+  schedule: every monday 09:00
+  timezone: Australia/NSW

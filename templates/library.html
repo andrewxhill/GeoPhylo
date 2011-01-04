@@ -1,0 +1,24 @@
+
+    <div id="library">
+      <b>
+        <div id="entry">
+            <div id="entry_celly">Title</div>
+            <div id="entry_cellz">last update</div>
+            <div id="entry_celly">Author</div>
+            <div id="entry_cellz"><a href="{{ entry.link }}">Link</a></div>
+        </div>
+      </b>
+    {% for entry in entries %}
+        <div id="entry">
+            <div id="entry_celly">{{ entry.name }}</div>
+            <div id="entry_cellz">{{ entry.update }}</div>
+            <div id="entry_celly">{{ entry.author }}</div>
+            <div id="entry_cellz"><a href="{{ entry.link }}">geophylogeny</a></div>
+        </div>
+    {% endfor %}
+    </br>
+    <div id="library_scroll">
+        <div id="library_last"><a href="library?next={{last}}"><-</a></div>
+        <div id="library_next"><a href="library?next={{next}}">-></a></div>
+    </div>
+    </div>

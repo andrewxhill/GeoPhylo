@@ -1,0 +1,31 @@
+<Style id="{{ styleUrl }}_a">
+    <IconStyle>
+        <scale>.45</scale>
+    </IconStyle>
+    <LabelStyle>
+        <scale>0</scale>
+    </LabelStyle>
+    <LineStyle>
+        <width>{{ width }}</width>
+    </LineStyle>
+</Style>
+<Style id="{{ styleUrl }}_b">            
+    <IconStyle>                
+        <scale>.95</scale>
+    </IconStyle>
+    <LabelStyle>
+    </LabelStyle>
+    <LineStyle>
+        <width>{{ highlight }}</width>
+    </LineStyle>
+</Style>
+<StyleMap id="{{ styleUrl }}">
+    <Pair>
+        <key>normal</key>
+        <styleUrl>#{{ styleUrl }}_a</styleUrl>
+    </Pair>
+    <Pair>
+       <key>highlight</key>
+       <styleUrl>#{{ styleUrl }}_b</styleUrl>
+    </Pair>
+</StyleMap>

@@ -1,0 +1,1857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <kml xmlns="http://earth.google.com/kml/2.0">
+ <Document>
+	 <name>Geophylogeny</name>
+	<Style id="0a">
+            <IconStyle>
+                <scale>.25</scale>
+                <Icon>
+                    <href>http://geophylo.appspot.com/static_files/icons/a99.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+            <LineStyle>
+                <width>1.5</width>
+            </LineStyle>
+        </Style>
+        <Style id="0b">            <IconStyle>                <scale>.95</scale>
+                <Icon>                    <href>http://geophylo.appspot.com/static_files/icons/a99.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+            </LabelStyle>
+            <LineStyle>
+                <width>4</width>
+            </LineStyle>
+            </Style>
+         <StyleMap id="0">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#0a</styleUrl>
+            </Pair>
+              <Pair>
+                   <key>highlight</key>
+                   <styleUrl>#0b</styleUrl>
+              </Pair>
+         </StyleMap>
+	<Style id="1a">
+            <IconStyle>
+                <scale>.25</scale>
+                <Icon>
+                    <href>http://geophylo.appspot.com/static_files/icons/01.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+            <LineStyle>
+                <width>1.5</width>
+            </LineStyle>
+        </Style>
+        <Style id="1b">            <IconStyle>                <scale>.95</scale>
+                <Icon>                    <href>http://geophylo.appspot.com/static_files/icons/01.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+            </LabelStyle>
+            <LineStyle>
+                <width>4</width>
+            </LineStyle>
+            </Style>
+         <StyleMap id="1">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#1a</styleUrl>
+            </Pair>
+              <Pair>
+                   <key>highlight</key>
+                   <styleUrl>#1b</styleUrl>
+              </Pair>
+         </StyleMap>
+<Folder>
+ <name>Leaf nodes</name>
+ <open>0</open>
+  <Placemark id="pm_Taxa1">
+        <name>Taxa1</name>
+        <LookAt>
+            <longitude>170.33</longitude>
+            <latitude>-14.073075</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=165.146404906&lat=-17.2449138437&alt=240000.0">HTU 5</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa1">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.33,-14.073075,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.33,-14.073075,0 
+170.070820245,-14.2316669422,12000 
+169.811640491,-14.3902588844,24000 
+169.552460736,-14.5488508266,36000 
+169.293280981,-14.7074427687,48000 
+169.034101227,-14.8660347109,60000 
+168.774921472,-15.0246266531,72000 
+168.515741717,-15.1832185953,84000 
+168.256561963,-15.3418105375,96000 
+167.997382208,-15.5004024797,108000 
+167.738202453,-15.6589944219,120000 
+167.479022698,-15.8175863641,132000 
+167.219842944,-15.9761783062,144000 
+166.960663189,-16.1347702484,156000 
+166.701483434,-16.2933621906,168000 
+166.44230368,-16.4519541328,180000 
+166.183123925,-16.610546075,192000 
+165.92394417,-16.7691380172,204000 
+165.664764416,-16.9277299594,216000 
+165.146404906,-17.2449138437,240000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa11">
+        <name>Taxa11</name>
+        <LookAt>
+            <longitude>174.33</longitude>
+            <latitude>-14.073075</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.3299625&lat=-14.0730375&alt=20.0">HTU 10</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa11">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.33,-14.073075,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.33,-14.073075,0
+174.33,-14.073075,18.0
+174.3299625,-14.0730375,18.0
+174.3299625,-14.0730375,20.0
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa12">
+        <name>Taxa12</name>
+        <LookAt>
+            <longitude>174.329925</longitude>
+            <latitude>-14.073</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.3299625&lat=-14.0730375&alt=20.0">HTU 10</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa12">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329925,-14.073,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329925,-14.073,0
+174.329925,-14.073,18.0
+174.3299625,-14.0730375,18.0
+174.3299625,-14.0730375,20.0
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa13">
+        <name>Taxa13</name>
+        <LookAt>
+            <longitude>174.329978</longitude>
+            <latitude>-14.073022</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=173.329989&lat=-19.073011&alt=30000.0">HTU 12</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa13">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329978,-14.073022,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329978,-14.073022,0 
+174.27997855,-14.32302145,1500 
+174.2299791,-14.5730209,3000 
+174.17997965,-14.82302035,4500 
+174.1299802,-15.0730198,6000 
+174.07998075,-15.32301925,7500 
+174.0299813,-15.5730187,9000 
+173.97998185,-15.82301815,10500 
+173.9299824,-16.0730176,12000 
+173.87998295,-16.32301705,13500 
+173.8299835,-16.5730165,15000 
+173.77998405,-16.82301595,16500 
+173.7299846,-17.0730154,18000 
+173.67998515,-17.32301485,19500 
+173.6299857,-17.5730143,21000 
+173.57998625,-17.82301375,22500 
+173.5299868,-18.0730132,24000 
+173.47998735,-18.32301265,25500 
+173.4299879,-18.5730121,27000 
+173.329989,-19.073011,30000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa14">
+        <name>Taxa14</name>
+        <LookAt>
+            <longitude>172.33</longitude>
+            <latitude>-24.073</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=173.329989&lat=-19.073011&alt=30000.0">HTU 12</a><br></body>]]></description>
+        <styleUrl>#1</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa14">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.33,-24.073,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.33,-24.073,0 
+172.37999945,-23.82300055,1500 
+172.4299989,-23.5730011,3000 
+172.47999835,-23.32300165,4500 
+172.5299978,-23.0730022,6000 
+172.57999725,-22.82300275,7500 
+172.6299967,-22.5730033,9000 
+172.67999615,-22.32300385,10500 
+172.7299956,-22.0730044,12000 
+172.77999505,-21.82300495,13500 
+172.8299945,-21.5730055,15000 
+172.87999395,-21.32300605,16500 
+172.9299934,-21.0730066,18000 
+172.97999285,-20.82300715,19500 
+173.0299923,-20.5730077,21000 
+173.07999175,-20.32300825,22500 
+173.1299912,-20.0730088,24000 
+173.17999065,-19.82300935,25500 
+173.2299901,-19.5730099,27000 
+173.329989,-19.073011,30000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa15">
+        <name>Taxa15</name>
+        <LookAt>
+            <longitude>172.33</longitude>
+            <latitude>-44.073</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=167.58&lat=-44.073&alt=60000.0">HTU 13</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa15">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.33,-44.073,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.33,-44.073,0 
+172.0925,-44.073,3000 
+171.855,-44.073,6000 
+171.6175,-44.073,9000 
+171.38,-44.073,12000 
+171.1425,-44.073,15000 
+170.905,-44.073,18000 
+170.6675,-44.073,21000 
+170.43,-44.073,24000 
+170.1925,-44.073,27000 
+169.955,-44.073,30000 
+169.7175,-44.073,33000 
+169.48,-44.073,36000 
+169.2425,-44.073,39000 
+169.005,-44.073,42000 
+168.7675,-44.073,45000 
+168.53,-44.073,48000 
+168.2925,-44.073,51000 
+168.055,-44.073,54000 
+167.58,-44.073,60000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa16">
+        <name>Taxa16</name>
+        <LookAt>
+            <longitude>172.33</longitude>
+            <latitude>-64.073</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=162.83&lat=-44.073&alt=30000.0">HTU 14</a><br></body>]]></description>
+        <styleUrl>#1</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa16">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.33,-64.073,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.33,-64.073,0 
+171.855,-63.073,1500 
+171.38,-62.073,3000 
+170.905,-61.073,4500 
+170.43,-60.073,6000 
+169.955,-59.073,7500 
+169.48,-58.073,9000 
+169.005,-57.073,10500 
+168.53,-56.073,12000 
+168.055,-55.073,13500 
+167.58,-54.073,15000 
+167.105,-53.073,16500 
+166.63,-52.073,18000 
+166.155,-51.073,19500 
+165.68,-50.073,21000 
+165.205,-49.073,22500 
+164.73,-48.073,24000 
+164.255,-47.073,25500 
+163.78,-46.073,27000 
+162.83,-44.073,30000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa17">
+        <name>Taxa17</name>
+        <LookAt>
+            <longitude>153.33</longitude>
+            <latitude>-24.073</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=162.83&lat=-44.073&alt=30000.0">HTU 14</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa17">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>153.33,-24.073,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>153.33,-24.073,0 
+153.805,-25.073,1500 
+154.28,-26.073,3000 
+154.755,-27.073,4500 
+155.23,-28.073,6000 
+155.705,-29.073,7500 
+156.18,-30.073,9000 
+156.655,-31.073,10500 
+157.13,-32.073,12000 
+157.605,-33.073,13500 
+158.08,-34.073,15000 
+158.555,-35.073,16500 
+159.03,-36.073,18000 
+159.505,-37.073,19500 
+159.98,-38.073,21000 
+160.455,-39.073,22500 
+160.93,-40.073,24000 
+161.405,-41.073,25500 
+161.88,-42.073,27000 
+162.83,-44.073,30000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa18">
+        <name>Taxa18</name>
+        <LookAt>
+            <longitude>143.33</longitude>
+            <latitude>-24.073</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=157.86123925&lat=-23.44801075&alt=150000.0">HTU 8</a><br></body>]]></description>
+        <styleUrl>#1</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa18">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>143.33,-24.073,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>143.33,-24.073,0 
+144.056561963,-24.0417505375,7500 
+144.783123925,-24.010501075,15000 
+145.509685888,-23.9792516125,22500 
+146.23624785,-23.94800215,30000 
+146.962809813,-23.9167526875,37500 
+147.689371775,-23.885503225,45000 
+148.415933738,-23.8542537625,52500 
+149.1424957,-23.8230043,60000 
+149.869057663,-23.7917548375,67500 
+150.595619625,-23.760505375,75000 
+151.322181588,-23.7292559125,82500 
+152.04874355,-23.69800645,90000 
+152.775305513,-23.6667569875,97500 
+153.501867475,-23.635507525,105000 
+154.228429438,-23.6042580625,112500 
+154.9549914,-23.5730086,120000 
+155.681553363,-23.5417591375,127500 
+156.408115325,-23.510509675,135000 
+157.86123925,-23.44801075,150000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa19">
+        <name>Taxa19</name>
+        <LookAt>
+            <longitude>133.33</longitude>
+            <latitude>-24.073</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=145.595619625&lat=-23.760505375&alt=180000.0">HTU 7</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa19">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>133.33,-24.073,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>133.33,-24.073,0 
+133.943280981,-24.0573752688,9000 
+134.556561963,-24.0417505375,18000 
+135.169842944,-24.0261258063,27000 
+135.783123925,-24.010501075,36000 
+136.396404906,-23.9948763438,45000 
+137.009685888,-23.9792516125,54000 
+137.622966869,-23.9636268813,63000 
+138.23624785,-23.94800215,72000 
+138.849528831,-23.9323774188,81000 
+139.462809813,-23.9167526875,90000 
+140.076090794,-23.9011279563,99000 
+140.689371775,-23.885503225,108000 
+141.302652756,-23.8698784938,117000 
+141.915933738,-23.8542537625,126000 
+142.529214719,-23.8386290313,135000 
+143.1424957,-23.8230043,144000 
+143.755776681,-23.8073795688,153000 
+144.369057663,-23.7917548375,162000 
+145.595619625,-23.760505375,180000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa10">
+        <name>Taxa10</name>
+        <LookAt>
+            <longitude>174.33</longitude>
+            <latitude>-17.073</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=159.962809813&lat=-20.4167526875&alt=210000.0">HTU 6</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa10">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.33,-17.073,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.33,-17.073,0 
+173.611640491,-17.2401876344,10500 
+172.893280981,-17.4073752688,21000 
+172.174921472,-17.5745629031,31500 
+171.456561963,-17.7417505375,42000 
+170.738202453,-17.9089381719,52500 
+170.019842944,-18.0761258063,63000 
+169.301483434,-18.2433134406,73500 
+168.583123925,-18.410501075,84000 
+167.864764416,-18.5776887094,94500 
+167.146404906,-18.7448763438,105000 
+166.428045397,-18.9120639781,115500 
+165.709685888,-19.0792516125,126000 
+164.991326378,-19.2464392469,136500 
+164.272966869,-19.4136268813,147000 
+163.554607359,-19.5808145156,157500 
+162.83624785,-19.74800215,168000 
+162.117888341,-19.9151897844,178500 
+161.399528831,-20.0823774187,189000 
+159.962809813,-20.4167526875,210000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa2">
+        <name>Taxa2</name>
+        <LookAt>
+            <longitude>170.32985</longitude>
+            <latitude>-14.073075</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=167.738127453&lat=-15.6589944219&alt=270000.0">HTU 4</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa2">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.32985,-14.073075,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.32985,-14.073075,0 
+170.200263873,-14.1523709711,13500 
+170.070677745,-14.2316669422,27000 
+169.941091618,-14.3109629133,40500 
+169.811505491,-14.3902588844,54000 
+169.681919363,-14.4695548555,67500 
+169.552333236,-14.5488508266,81000 
+169.422747109,-14.6281467977,94500 
+169.293160981,-14.7074427687,108000 
+169.163574854,-14.7867387398,121500 
+169.033988727,-14.8660347109,135000 
+168.904402599,-14.945330682,148500 
+168.774816472,-15.0246266531,162000 
+168.645230345,-15.1039226242,175500 
+168.515644217,-15.1832185953,189000 
+168.38605809,-15.2625145664,202500 
+168.256471963,-15.3418105375,216000 
+168.126885835,-15.4211065086,229500 
+167.997299708,-15.5004024797,243000 
+167.738127453,-15.6589944219,270000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa3">
+        <name>Taxa3</name>
+        <LookAt>
+            <longitude>170.329925</longitude>
+            <latitude>-14.073</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.329925&lat=-14.073075&alt=10.0">HTU 16</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa3">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.329925,-14.073,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.329925,-14.073,0
+170.329925,-14.073,9.0
+170.329925,-14.073075,9.0
+170.329925,-14.073075,10.0
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa4">
+        <name>Taxa4</name>
+        <LookAt>
+            <longitude>170.329925</longitude>
+            <latitude>-14.07315</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.329925&lat=-14.073075&alt=10.0">HTU 16</a><br></body>]]></description>
+        <styleUrl>#1</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa4">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.329925,-14.07315,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.329925,-14.07315,0
+170.329925,-14.07315,9.0
+170.329925,-14.073075,9.0
+170.329925,-14.073075,10.0
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa5">
+        <name>Taxa5</name>
+        <LookAt>
+            <longitude>174.329872</longitude>
+            <latitude>-14.073022</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.3298665&lat=-14.07306175&alt=20.0">HTU 17</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa5">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329872,-14.073022,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329872,-14.073022,0
+174.329872,-14.073022,18.0
+174.3298665,-14.07306175,18.0
+174.3298665,-14.07306175,20.0
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa6">
+        <name>Taxa6</name>
+        <LookAt>
+            <longitude>174.329872</longitude>
+            <latitude>-14.073128</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.329861&lat=-14.0731015&alt=10.0">HTU 18</a><br></body>]]></description>
+        <styleUrl>#1</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa6">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329872,-14.073128,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329872,-14.073128,0
+174.329872,-14.073128,9.0
+174.329861,-14.0731015,9.0
+174.329861,-14.0731015,10.0
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa7">
+        <name>Taxa7</name>
+        <LookAt>
+            <longitude>174.32985</longitude>
+            <latitude>-14.073075</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.329861&lat=-14.0731015&alt=10.0">HTU 18</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa7">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.32985,-14.073075,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.32985,-14.073075,0
+174.32985,-14.073075,9.0
+174.329861,-14.0731015,9.0
+174.329861,-14.0731015,10.0
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa8">
+        <name>Taxa8</name>
+        <LookAt>
+            <longitude>174.329978</longitude>
+            <latitude>-14.073128</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.181994801&lat=-14.4695796992&alt=330000.0">HTU 2</a><br></body>]]></description>
+        <styleUrl>#1</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa8">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329978,-14.073128,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329978,-14.073128,0 
+174.22257884,-14.092950585,16500 
+174.11517968,-14.1127731699,33000 
+174.00778052,-14.1325957549,49500 
+173.90038136,-14.1524183398,66000 
+173.7929822,-14.1722409248,82500 
+173.68558304,-14.1920635098,99000 
+173.57818388,-14.2118860947,115500 
+173.47078472,-14.2317086797,132000 
+173.36338556,-14.2515312646,148500 
+173.2559864,-14.2713538496,165000 
+173.14858724,-14.2911764346,181500 
+173.04118808,-14.3109990195,198000 
+172.933788921,-14.3308216045,214500 
+172.826389761,-14.3506441895,231000 
+172.718990601,-14.3704667744,247500 
+172.611591441,-14.3902893594,264000 
+172.504192281,-14.4101119443,280500 
+172.396793121,-14.4299345293,297000 
+172.181994801,-14.4695796992,330000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa9">
+        <name>Taxa9</name>
+        <LookAt>
+            <longitude>174.329925</longitude>
+            <latitude>-14.07315</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=173.2559599&lat=-14.2713648496&alt=360000.0">HTU 1</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa9">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329925,-14.07315,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329925,-14.07315,0 
+174.276226745,-14.0830607425,18000 
+174.22252849,-14.092971485,36000 
+174.168830235,-14.1028822274,54000 
+174.11513198,-14.1127929699,72000 
+174.061433725,-14.1227037124,90000 
+174.00773547,-14.1326144549,108000 
+173.954037215,-14.1425251974,126000 
+173.90033896,-14.1524359398,144000 
+173.846640705,-14.1623466823,162000 
+173.79294245,-14.1722574248,180000 
+173.739244195,-14.1821681673,198000 
+173.68554594,-14.1920789098,216000 
+173.631847685,-14.2019896522,234000 
+173.57814943,-14.2119003947,252000 
+173.524451175,-14.2218111372,270000 
+173.47075292,-14.2317218797,288000 
+173.417054665,-14.2416326222,306000 
+173.36335641,-14.2515433646,324000 
+173.2559599,-14.2713648496,360000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_Taxa0">
+        <name>Taxa0</name>
+        <LookAt>
+            <longitude>165.33</longitude>
+            <latitude>-27.073</latitude>
+            <altitude>0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=169.29297995&lat=-20.6721824248&alt=390000.0">HTU 0</a><br></body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_Taxa0">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>165.33,-27.073,0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>165.33,-27.073,0 
+165.528148998,-26.7529591212,19500 
+165.726297995,-26.4329182425,39000 
+165.924446993,-26.1128773637,58500 
+166.12259599,-25.792836485,78000 
+166.320744988,-25.4727956062,97500 
+166.518893985,-25.1527547274,117000 
+166.717042983,-24.8327138487,136500 
+166.91519198,-24.5126729699,156000 
+167.113340978,-24.1926320912,175500 
+167.311489975,-23.8725912124,195000 
+167.509638973,-23.5525503336,214500 
+167.70778797,-23.2325094549,234000 
+167.905936968,-22.9124685761,253500 
+168.104085965,-22.5924276974,273000 
+168.302234963,-22.2723868186,292500 
+168.50038396,-21.9523459398,312000 
+168.698532958,-21.6323050611,331500 
+168.896681955,-21.3122641823,351000 
+169.29297995,-20.6721824248,390000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+</Folder>
+<Folder>
+<name>HTUs</name>
+ <open>0</open>
+  <Placemark id="pm_0">
+        <name>Root HTU</name>
+        <LookAt>
+            <longitude>169.29297995</longitude>
+            <latitude>-20.6721824248</latitude>
+            <altitude>390000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <description><![CDATA[<body><b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=169.29297995&lat=-20.6721824248&alt=390000.0">HTU 0</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=173.2559599&lat=-14.2713648496&alt=360000.0">HTU 1</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+               <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_0">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>169.29297995,-20.6721824248,390000.0</coordinates>
+            </Point>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 1">
+        <name>HTU 1</name>
+        <LookAt>
+            <longitude>173.2559599</longitude>
+            <latitude>-14.2713648496</latitude>
+            <altitude>360000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=169.29297995&lat=-20.6721824248&alt=390000.0">HTU 0</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.181994801&lat=-14.4695796992&alt=330000.0">HTU 2</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.329925&lat=-14.07315&alt=0.0">Taxa9</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 1">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>173.2559599,-14.2713648496,360000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>173.2559599,-14.2713648496,360000 
+173.057810903,-14.5914057284,361500 
+172.859661905,-14.9114466071,363000 
+172.661512908,-15.2314874859,364500 
+172.46336391,-15.5515283646,366000 
+172.265214913,-15.8715692434,367500 
+172.067065915,-16.1916101222,369000 
+171.868916918,-16.5116510009,370500 
+171.67076792,-16.8316918797,372000 
+171.472618923,-17.1517327584,373500 
+171.274469925,-17.4717736372,375000 
+171.076320928,-17.791814516,376500 
+170.87817193,-18.1118553947,378000 
+170.680022933,-18.4318962735,379500 
+170.481873935,-18.7519371522,381000 
+170.283724938,-19.071978031,382500 
+170.08557594,-19.3920189098,384000 
+169.887426943,-19.7120597885,385500 
+169.689277945,-20.0321006673,387000 
+169.29297995,-20.6721824248,390000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 2">
+        <name>HTU 2</name>
+        <LookAt>
+            <longitude>172.181994801</longitude>
+            <latitude>-14.4695796992</latitude>
+            <altitude>330000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=173.2559599&lat=-14.2713648496&alt=360000.0">HTU 1</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.034011602&lat=-14.8660313984&alt=300000.0">HTU 3</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.329978&lat=-14.073128&alt=0.0">Taxa8</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 2">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.181994801,-14.4695796992,330000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.181994801,-14.4695796992,330000 
+172.235693056,-14.4596689567,331500 
+172.289391311,-14.4497582143,333000 
+172.343089566,-14.4398474718,334500 
+172.396787821,-14.4299367293,336000 
+172.450486076,-14.4200259868,337500 
+172.504184331,-14.4101152443,339000 
+172.557882586,-14.4002045019,340500 
+172.611580841,-14.3902937594,342000 
+172.665279096,-14.3803830169,343500 
+172.718977351,-14.3704722744,345000 
+172.772675606,-14.3605615319,346500 
+172.826373861,-14.3506507895,348000 
+172.880072116,-14.340740047,349500 
+172.933770371,-14.3308293045,351000 
+172.987468625,-14.320918562,352500 
+173.04116688,-14.3110078195,354000 
+173.094865135,-14.3010970771,355500 
+173.14856339,-14.2911863346,357000 
+173.2559599,-14.2713648496,360000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 3">
+        <name>HTU 3</name>
+        <LookAt>
+            <longitude>170.034011602</longitude>
+            <latitude>-14.8660313984</latitude>
+            <altitude>300000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.181994801&lat=-14.4695796992&alt=330000.0">HTU 2</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=167.738127453&lat=-15.6589944219&alt=270000.0">HTU 4</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.32989575&lat=-14.073068375&alt=30020.0">HTU 15</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 3">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.034011602,-14.8660313984,300000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.034011602,-14.8660313984,300000 
+170.141410762,-14.8462088135,301500 
+170.248809921,-14.8263862285,303000 
+170.356209081,-14.8065636436,304500 
+170.463608241,-14.7867410586,306000 
+170.571007401,-14.7669184736,307500 
+170.678406561,-14.7470958887,309000 
+170.785805721,-14.7272733037,310500 
+170.893204881,-14.7074507188,312000 
+171.000604041,-14.6876281338,313500 
+171.108003201,-14.6678055488,315000 
+171.215402361,-14.6479829639,316500 
+171.322801521,-14.6281603789,318000 
+171.430200681,-14.6083377939,319500 
+171.537599841,-14.588515209,321000 
+171.644999001,-14.568692624,322500 
+171.752398161,-14.5488700391,324000 
+171.859797321,-14.5290474541,325500 
+171.967196481,-14.5092248691,327000 
+172.181994801,-14.4695796992,330000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 4">
+        <name>HTU 4</name>
+        <LookAt>
+            <longitude>167.738127453</longitude>
+            <latitude>-15.6589944219</latitude>
+            <altitude>270000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.034011602&lat=-14.8660313984&alt=300000.0">HTU 3</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=165.146404906&lat=-17.2449138437&alt=240000.0">HTU 5</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.32985&lat=-14.073075&alt=0.0">Taxa2</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 4">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>167.738127453,-15.6589944219,270000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>167.738127453,-15.6589944219,270000 
+167.852921661,-15.6193462707,271500 
+167.967715868,-15.5796981195,273000 
+168.082510075,-15.5400499684,274500 
+168.197304283,-15.5004018172,276000 
+168.31209849,-15.460753666,277500 
+168.426892698,-15.4211055148,279000 
+168.541686905,-15.3814573637,280500 
+168.656481112,-15.3418092125,282000 
+168.77127532,-15.3021610613,283500 
+168.886069527,-15.2625129102,285000 
+169.000863735,-15.222864759,286500 
+169.115657942,-15.1832166078,288000 
+169.23045215,-15.1435684566,289500 
+169.345246357,-15.1039203055,291000 
+169.460040564,-15.0642721543,292500 
+169.574834772,-15.0246240031,294000 
+169.689628979,-14.984975852,295500 
+169.804423187,-14.9453277008,297000 
+170.034011602,-14.8660313984,300000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 5">
+        <name>HTU 5</name>
+        <LookAt>
+            <longitude>165.146404906</longitude>
+            <latitude>-17.2449138437</latitude>
+            <altitude>240000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=167.738127453&lat=-15.6589944219&alt=270000.0">HTU 4</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=159.962809813&lat=-20.4167526875&alt=210000.0">HTU 6</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.33&lat=-14.073075&alt=0.0">Taxa1</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 5">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>165.146404906,-17.2449138437,240000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>165.146404906,-17.2449138437,240000 
+165.275991034,-17.1656178727,241500 
+165.405577161,-17.0863219016,243000 
+165.535163288,-17.0070259305,244500 
+165.664749416,-16.9277299594,246000 
+165.794335543,-16.8484339883,247500 
+165.92392167,-16.7691380172,249000 
+166.053507798,-16.6898420461,250500 
+166.183093925,-16.610546075,252000 
+166.312680052,-16.5312501039,253500 
+166.44226618,-16.4519541328,255000 
+166.571852307,-16.3726581617,256500 
+166.701438434,-16.2933621906,258000 
+166.831024562,-16.2140662195,259500 
+166.960610689,-16.1347702484,261000 
+167.090196816,-16.0554742773,262500 
+167.219782944,-15.9761783062,264000 
+167.349369071,-15.8968823352,265500 
+167.478955198,-15.8175863641,267000 
+167.738127453,-15.6589944219,270000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 6">
+        <name>HTU 6</name>
+        <LookAt>
+            <longitude>159.962809813</longitude>
+            <latitude>-20.4167526875</latitude>
+            <altitude>210000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=165.146404906&lat=-17.2449138437&alt=240000.0">HTU 5</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=145.595619625&lat=-23.760505375&alt=180000.0">HTU 7</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.33&lat=-17.073&alt=0.0">Taxa10</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 6">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>159.962809813,-20.4167526875,210000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>159.962809813,-20.4167526875,210000 
+160.221989567,-20.2581607453,211500 
+160.481169322,-20.0995688031,213000 
+160.740349077,-19.9409768609,214500 
+160.999528831,-19.7823849188,216000 
+161.258708586,-19.6237929766,217500 
+161.517888341,-19.4652010344,219000 
+161.777068095,-19.3066090922,220500 
+162.03624785,-19.14801715,222000 
+162.295427605,-18.9894252078,223500 
+162.554607359,-18.8308332656,225000 
+162.813787114,-18.6722413234,226500 
+163.072966869,-18.5136493812,228000 
+163.332146623,-18.3550574391,229500 
+163.591326378,-18.1964654969,231000 
+163.850506133,-18.0378735547,232500 
+164.109685888,-17.8792816125,234000 
+164.368865642,-17.7206896703,235500 
+164.628045397,-17.5620977281,237000 
+165.146404906,-17.2449138437,240000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 7">
+        <name>HTU 7</name>
+        <LookAt>
+            <longitude>145.595619625</longitude>
+            <latitude>-23.760505375</latitude>
+            <altitude>180000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=159.962809813&lat=-20.4167526875&alt=210000.0">HTU 6</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=157.86123925&lat=-23.44801075&alt=150000.0">HTU 8</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=133.33&lat=-24.073&alt=0.0">Taxa19</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 7">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>145.595619625,-23.760505375,180000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>145.595619625,-23.760505375,180000 
+146.313979134,-23.5933177406,181500 
+147.032338644,-23.4261301063,183000 
+147.750698153,-23.2589424719,184500 
+148.469057663,-23.0917548375,186000 
+149.187417172,-22.9245672031,187500 
+149.905776681,-22.7573795688,189000 
+150.624136191,-22.5901919344,190500 
+151.3424957,-22.4230043,192000 
+152.060855209,-22.2558166656,193500 
+152.779214719,-22.0886290313,195000 
+153.497574228,-21.9214413969,196500 
+154.215933738,-21.7542537625,198000 
+154.934293247,-21.5870661281,199500 
+155.652652756,-21.4198784938,201000 
+156.371012266,-21.2526908594,202500 
+157.089371775,-21.085503225,204000 
+157.807731284,-20.9183155906,205500 
+158.526090794,-20.7511279563,207000 
+159.962809813,-20.4167526875,210000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 8">
+        <name>HTU 8</name>
+        <LookAt>
+            <longitude>157.86123925</longitude>
+            <latitude>-23.44801075</latitude>
+            <altitude>150000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=145.595619625&lat=-23.760505375&alt=180000.0">HTU 7</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.3924785&lat=-22.8230215&alt=120000.0">HTU 9</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=143.33&lat=-24.073&alt=0.0">Taxa18</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 8">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>157.86123925,-23.44801075,150000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>157.86123925,-23.44801075,150000 
+157.247958269,-23.4636354813,151500 
+156.634677288,-23.4792602125,153000 
+156.021396306,-23.4948849438,154500 
+155.408115325,-23.510509675,156000 
+154.794834344,-23.5261344063,157500 
+154.181553363,-23.5417591375,159000 
+153.568272381,-23.5573838688,160500 
+152.9549914,-23.5730086,162000 
+152.341710419,-23.5886333313,163500 
+151.728429438,-23.6042580625,165000 
+151.115148456,-23.6198827938,166500 
+150.501867475,-23.635507525,168000 
+149.888586494,-23.6511322563,169500 
+149.275305513,-23.6667569875,171000 
+148.662024531,-23.6823817188,172500 
+148.04874355,-23.69800645,174000 
+147.435462569,-23.7136311813,175500 
+146.822181588,-23.7292559125,177000 
+145.595619625,-23.760505375,180000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 9">
+        <name>HTU 9</name>
+        <LookAt>
+            <longitude>172.3924785</longitude>
+            <latitude>-22.8230215</latitude>
+            <altitude>120000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=157.86123925&lat=-23.44801075&alt=150000.0">HTU 8</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.3299625&lat=-14.0730375&alt=20.0">HTU 10</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.4549945&lat=-31.5730055&alt=90000.0">HTU 11</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 9">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.3924785,-22.8230215,120000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.3924785,-22.8230215,120000 
+171.665916538,-22.8542709625,121500 
+170.939354575,-22.885520425,123000 
+170.212792613,-22.9167698875,124500 
+169.48623065,-22.94801935,126000 
+168.759668688,-22.9792688125,127500 
+168.033106725,-23.010518275,129000 
+167.306544763,-23.0417677375,130500 
+166.5799828,-23.0730172,132000 
+165.853420838,-23.1042666625,133500 
+165.126858875,-23.135516125,135000 
+164.400296913,-23.1667655875,136500 
+163.67373495,-23.19801505,138000 
+162.947172988,-23.2292645125,139500 
+162.220611025,-23.260513975,141000 
+161.494049063,-23.2917634375,142500 
+160.7674871,-23.3230129,144000 
+160.040925138,-23.3542623625,145500 
+159.314363175,-23.385511825,147000 
+157.86123925,-23.44801075,150000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 11">
+        <name>HTU 11</name>
+        <LookAt>
+            <longitude>170.4549945</longitude>
+            <latitude>-31.5730055</latitude>
+            <altitude>90000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.3924785&lat=-22.8230215&alt=120000.0">HTU 9</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=173.329989&lat=-19.073011&alt=30000.0">HTU 12</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=167.58&lat=-44.073&alt=60000.0">HTU 13</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 11">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.4549945,-31.5730055,90000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.4549945,-31.5730055,90000 
+170.5518687,-31.1355063,91500 
+170.6487429,-30.6980071,93000 
+170.7456171,-30.2605079,94500 
+170.8424913,-29.8230087,96000 
+170.9393655,-29.3855095,97500 
+171.0362397,-28.9480103,99000 
+171.1331139,-28.5105111,100500 
+171.2299881,-28.0730119,102000 
+171.3268623,-27.6355127,103500 
+171.4237365,-27.1980135,105000 
+171.5206107,-26.7605143,106500 
+171.6174849,-26.3230151,108000 
+171.7143591,-25.8855159,109500 
+171.8112333,-25.4480167,111000 
+171.9081075,-25.0105175,112500 
+172.0049817,-24.5730183,114000 
+172.1018559,-24.1355191,115500 
+172.1987301,-23.6980199,117000 
+172.3924785,-22.8230215,120000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 13">
+        <name>HTU 13</name>
+        <LookAt>
+            <longitude>167.58</longitude>
+            <latitude>-44.073</latitude>
+            <altitude>60000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.4549945&lat=-31.5730055&alt=90000.0">HTU 11</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=162.83&lat=-44.073&alt=30000.0">HTU 14</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.33&lat=-44.073&alt=0.0">Taxa15</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 13">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>167.58,-44.073,60000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>167.58,-44.073,60000 
+167.723749725,-43.448000275,61500 
+167.86749945,-42.82300055,63000 
+168.011249175,-42.198000825,64500 
+168.1549989,-41.5730011,66000 
+168.298748625,-40.948001375,67500 
+168.44249835,-40.32300165,69000 
+168.586248075,-39.698001925,70500 
+168.7299978,-39.0730022,72000 
+168.873747525,-38.448002475,73500 
+169.01749725,-37.82300275,75000 
+169.161246975,-37.198003025,76500 
+169.3049967,-36.5730033,78000 
+169.448746425,-35.948003575,79500 
+169.59249615,-35.32300385,81000 
+169.736245875,-34.698004125,82500 
+169.8799956,-34.0730044,84000 
+170.023745325,-33.448004675,85500 
+170.16749505,-32.82300495,87000 
+170.4549945,-31.5730055,90000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 15">
+        <name>HTU 15</name>
+        <LookAt>
+            <longitude>172.32989575</longitude>
+            <latitude>-14.073068375</latitude>
+            <altitude>30020.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.034011602&lat=-14.8660313984&alt=300000.0">HTU 3</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.329925&lat=-14.073075&alt=10.0">HTU 16</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.3298665&lat=-14.07306175&alt=20.0">HTU 17</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 15">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.32989575,-14.073068375,30020.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>172.32989575,-14.073068375,30020 
+172.215101543,-14.1127165262,43519 
+172.100307335,-14.1523646773,57018 
+171.985513128,-14.1920128285,70517 
+171.87071892,-14.2316609797,84016 
+171.755924713,-14.2713091309,97515 
+171.641130505,-14.310957282,111014 
+171.526336298,-14.3506054332,124513 
+171.411542091,-14.3902535844,138012 
+171.296747883,-14.4299017355,151511 
+171.181953676,-14.4695498867,165010 
+171.067159468,-14.5091980379,178509 
+170.952365261,-14.5488461891,192008 
+170.837571054,-14.5884943402,205507 
+170.722776846,-14.6281424914,219006 
+170.607982639,-14.6677906426,232505 
+170.493188431,-14.7074387937,246004 
+170.378394224,-14.7470869449,259503 
+170.263600016,-14.7867350961,273002 
+170.034011602,-14.8660313984,300000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 17">
+        <name>HTU 17</name>
+        <LookAt>
+            <longitude>174.3298665</longitude>
+            <latitude>-14.07306175</latitude>
+            <altitude>20.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.32989575&lat=-14.073068375&alt=30020.0">HTU 15</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.329861&lat=-14.0731015&alt=10.0">HTU 18</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.329872&lat=-14.073022&alt=0.0">Taxa5</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 17">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.3298665,-14.07306175,20.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.3298665,-14.07306175,20 
+174.229867962,-14.0730620813,1520 
+174.129869425,-14.0730624125,3020 
+174.029870887,-14.0730627438,4520 
+173.92987235,-14.073063075,6020 
+173.829873812,-14.0730634063,7520 
+173.729875275,-14.0730637375,9020 
+173.629876737,-14.0730640688,10520 
+173.5298782,-14.0730644,12020 
+173.429879662,-14.0730647313,13520 
+173.329881125,-14.0730650625,15020 
+173.229882587,-14.0730653938,16520 
+173.12988405,-14.073065725,18020 
+173.029885512,-14.0730660563,19520 
+172.929886975,-14.0730663875,21020 
+172.829888437,-14.0730667188,22520 
+172.7298899,-14.07306705,24020 
+172.629891362,-14.0730673813,25520 
+172.529892825,-14.0730677125,27020 
+172.32989575,-14.073068375,30020 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 10">
+        <name>HTU 10</name>
+        <LookAt>
+            <longitude>174.3299625</longitude>
+            <latitude>-14.0730375</latitude>
+            <altitude>20.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T00:00:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.3924785&lat=-22.8230215&alt=120000.0">HTU 9</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.33&lat=-14.073075&alt=0.0">Taxa11</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.329925&lat=-14.073&alt=0.0">Taxa12</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 10">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.3299625,-14.0730375,20.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.3299625,-14.0730375,20 
+174.2330883,-14.5105367,6019 
+174.1362141,-14.9480359,12018 
+174.0393399,-15.3855351,18017 
+173.9424657,-15.8230343,24016 
+173.8455915,-16.2605335,30015 
+173.7487173,-16.6980327,36014 
+173.6518431,-17.1355319,42013 
+173.5549689,-17.5730311,48012 
+173.4580947,-18.0105303,54011 
+173.3612205,-18.4480295,60010 
+173.2643463,-18.8855287,66009 
+173.1674721,-19.3230279,72008 
+173.0705979,-19.7605271,78007 
+172.9737237,-20.1980263,84006 
+172.8768495,-20.6355255,90005 
+172.7799753,-21.0730247,96004 
+172.6831011,-21.5105239,102003 
+172.5862269,-21.9480231,108002 
+172.3924785,-22.8230215,120000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 12">
+        <name>HTU 12</name>
+        <LookAt>
+            <longitude>173.329989</longitude>
+            <latitude>-19.073011</latitude>
+            <altitude>30000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.4549945&lat=-31.5730055&alt=90000.0">HTU 11</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.329978&lat=-14.073022&alt=0.0">Taxa13</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.33&lat=-24.073&alt=0.0">Taxa14</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 12">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>173.329989,-19.073011,30000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>173.329989,-19.073011,30000 
+173.186239275,-19.698010725,33000 
+173.04248955,-20.32301045,36000 
+172.898739825,-20.948010175,39000 
+172.7549901,-21.5730099,42000 
+172.611240375,-22.198009625,45000 
+172.46749065,-22.82300935,48000 
+172.323740925,-23.448009075,51000 
+172.1799912,-24.0730088,54000 
+172.036241475,-24.698008525,57000 
+171.89249175,-25.32300825,60000 
+171.748742025,-25.948007975,63000 
+171.6049923,-26.5730077,66000 
+171.461242575,-27.198007425,69000 
+171.31749285,-27.82300715,72000 
+171.173743125,-28.448006875,75000 
+171.0299934,-29.0730066,78000 
+170.886243675,-29.698006325,81000 
+170.74249395,-30.32300605,84000 
+170.4549945,-31.5730055,90000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 14">
+        <name>HTU 14</name>
+        <LookAt>
+            <longitude>162.83</longitude>
+            <latitude>-44.073</latitude>
+            <altitude>30000.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=167.58&lat=-44.073&alt=60000.0">HTU 13</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=153.33&lat=-24.073&alt=0.0">Taxa17</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.33&lat=-64.073&alt=0.0">Taxa16</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 14">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>162.83,-44.073,30000.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>162.83,-44.073,30000 
+163.0675,-44.073,31500 
+163.305,-44.073,33000 
+163.5425,-44.073,34500 
+163.78,-44.073,36000 
+164.0175,-44.073,37500 
+164.255,-44.073,39000 
+164.4925,-44.073,40500 
+164.73,-44.073,42000 
+164.9675,-44.073,43500 
+165.205,-44.073,45000 
+165.4425,-44.073,46500 
+165.68,-44.073,48000 
+165.9175,-44.073,49500 
+166.155,-44.073,51000 
+166.3925,-44.073,52500 
+166.63,-44.073,54000 
+166.8675,-44.073,55500 
+167.105,-44.073,57000 
+167.58,-44.073,60000 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 16">
+        <name>HTU 16</name>
+        <LookAt>
+            <longitude>170.329925</longitude>
+            <latitude>-14.073075</latitude>
+            <altitude>10.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:01</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=172.32989575&lat=-14.073068375&alt=30020.0">HTU 15</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.329925&lat=-14.073&alt=0.0">Taxa3</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=170.329925&lat=-14.07315&alt=0.0">Taxa4</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 16">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.329925,-14.073075,10.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>170.329925,-14.073075,10 
+170.429923538,-14.0730746687,1510 
+170.529922075,-14.0730743375,3011 
+170.629920613,-14.0730740063,4511 
+170.72991915,-14.073073675,6012 
+170.829917688,-14.0730733438,7512 
+170.929916225,-14.0730730125,9013 
+171.029914763,-14.0730726813,10513 
+171.1299133,-14.07307235,12014 
+171.229911838,-14.0730720188,13514 
+171.329910375,-14.0730716875,15015 
+171.429908913,-14.0730713562,16515 
+171.52990745,-14.073071025,18016 
+171.629905988,-14.0730706937,19516 
+171.729904525,-14.0730703625,21017 
+171.829903062,-14.0730700312,22517 
+171.9299016,-14.0730697,24018 
+172.029900137,-14.0730693688,25518 
+172.129898675,-14.0730690375,27019 
+172.32989575,-14.073068375,30020 
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+  <Placemark id="pm_HTU 18">
+        <name>HTU 18</name>
+        <LookAt>
+            <longitude>174.329861</longitude>
+            <latitude>-14.0731015</latitude>
+            <altitude>10.0</altitude>            <range>500</range>
+            <tilt>10</tilt>
+            <heading>0</heading>
+        </LookAt>
+        <TimeStamp><when>1999-01-23T05:23:00</when></TimeStamp>        <description><![CDATA[<body><b>Ancestor: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.3298665&lat=-14.07306175&alt=20.0">HTU 17</a><br>
+<b>Descendant 1: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.32985&lat=-14.073075&alt=0.0">Taxa7</a><br>
+<b>Descendant 2: </b><a href="http://geophylo.appspot.com/flyto.kml?lon=174.329872&lat=-14.073128&alt=0.0">Taxa6</a><br>
+</body>]]></description>
+        <styleUrl>#0</styleUrl>
+        <Style>
+            <LineStyle>
+            <color>FFC525FF</color>
+            </LineStyle>
+        </Style>
+        <MultiGeometry> 
+            <Point id="pt_HTU 18">
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329861,-14.0731015,10.0</coordinates>
+            </Point>
+            <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>174.329861,-14.0731015,10.0
+174.329861,-14.0731015,18.0
+174.3298665,-14.07306175,18.0
+174.3298665,-14.07306175,20.0
+</coordinates>
+            </LineString>
+        </MultiGeometry>
+    </Placemark>
+</Folder>
+</Document>
+</kml>
